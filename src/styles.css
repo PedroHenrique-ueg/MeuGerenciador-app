@@ -604,6 +604,9 @@ pre code {
   margin-left: -0.75rem;
 }
 
+#layoutSidenav_content{
+  width: 90%;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;

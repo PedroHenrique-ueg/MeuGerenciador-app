@@ -1,9 +1,11 @@
-import { ScriptHomeComponent } from './script-home/script-home.component';
+import { ListarscriptComponent } from './listarscript/listarscript.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CadastrarscriptComponent } from './cadastrarscript/cadastrarscript.component';
 
 const routes: Routes = [
-  {path: 'scripts', component: ScriptHomeComponent}
+  {path: 'script', component:ListarscriptComponent},
+  {path: 'script/novo', component: CadastrarscriptComponent}
 ];
 
 @NgModule({

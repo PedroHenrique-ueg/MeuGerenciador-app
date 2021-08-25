@@ -4,15 +4,13 @@ import { CommonModule } from '@angular/common';
 import { ScriptRoutingModule } from './script-routing.module';
 import { CadastrarscriptComponent } from './cadastrarscript/cadastrarscript.component';
 import { ListarscriptComponent } from './listarscript/listarscript.component';
-import { ScriptHomeComponent } from './script-home/script-home.component';
 import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     CadastrarscriptComponent,
-    ListarscriptComponent,
-    ScriptHomeComponent
+    ListarscriptComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +18,6 @@ import { FormsModule } from '@angular/forms';
     FormsModule
   ],
   exports:[
-    ScriptHomeComponent,
     CadastrarscriptComponent,
     ListarscriptComponent
   ]

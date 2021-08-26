@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #292929 ;
+    background-color: #363636 ;
     color: white;
     height: 10%;
 }
@@ -7,10 +7,11 @@
 .sidebar{
     background-color: #292929;
     color: white;
-    height: 90%;
+    height: 92.5%;
     width: 15%;
     position: absolute;
     padding: 1%;
+    
 }
 
 .sidebar-content{
@@ -37,4 +38,24 @@
 .sidebar-content-option a:hover{
     text-decoration: none;
     color: white;
+}
+
+main{
+    margin-left: 15.2%;
+    width: auto;
+    padding: 10px;
+
+}
+
+.container-title{
+    background-color: #a2a2a2;
+    margin: auto;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: solid 1px white;
+    border-radius: 10px;
+    color:#4e4e4e;
+    font-size: 20px;
+    font-weight: 400;
 }

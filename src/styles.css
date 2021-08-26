@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar{
+    background-color: #292929 ;
+    color: white;
+    height: 10%;
+}
+
+.sidebar{
+    background-color: #292929;
+    color: white;
+    height: 90%;
+    width: 15%;
+    position: absolute;
+    padding: 1%;
+}
+
+.sidebar-content{
+    margin-top: 20px;
+}
+
+.sidebar-content p{
+    
+    color: #4e4e4e;
+    font-size: small;
+    font-weight: 600;
+}
+
+.sidebar-content-option{
+    display: flex;
+}
+
+.sidebar-content-option a{
+    text-decoration: none;
+    color: #a2a2a2;
+    margin-left: 2px;
+}
+
+.sidebar-content-option a:hover{
+    text-decoration: none;
+    color: white;
+}

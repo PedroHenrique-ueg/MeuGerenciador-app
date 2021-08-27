@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListarScriptComponent } from './Script/listar-script/listar-script.component';
 import { CadastrarScriptComponent } from './Script/cadastrar-script/cadastrar-script.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListarScriptComponent,
-    CadastrarScriptComponent
+    CadastrarScriptComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

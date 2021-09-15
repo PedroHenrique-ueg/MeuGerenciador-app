@@ -15,7 +15,7 @@
 }
 
 .sidebar-content{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .sidebar-content p{
@@ -27,6 +27,7 @@
 
 .sidebar-content-option{
     display: flex;
+    margin-top: 20px;
 }
 
 .sidebar-content-option a{

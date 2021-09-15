@@ -1,3 +1,5 @@
+import { EmpresaService } from './serviços/empresas-services.service';
+import { ClienteService } from './serviços/clientes-services.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -6,19 +8,45 @@ import { AppComponent } from './app.component';
 import { ListarScriptComponent } from './Script/listar-script/listar-script.component';
 import { CadastrarScriptComponent } from './Script/cadastrar-script/cadastrar-script.component';
 import { HomeComponent } from './home/home.component';
+import { CadClienteComponent } from './componentes/clientes/cad-cliente/cad-cliente.component';
+import { ListClienteComponent } from './componentes/clientes/list-cliente/list-cliente.component';
+import { DetailClienteComponent } from './componentes/clientes/detail-cliente/detail-cliente.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CadFuncionarioComponent } from './componentes/funcionario/cad-funcionario/cad-funcionario.component';
+import { ListFuncionarioComponent } from './componentes/funcionario/list-funcionario/list-funcionario.component';
+import { DetailFuncionarioComponent } from './componentes/funcionario/detail-funcionario/detail-funcionario.component';
+import { CadTicketComponent } from './componentes/ticket/cad-ticket/cad-ticket.component';
+import { EncerraTicketComponent } from './componentes/ticket/encerra-ticket/encerra-ticket.component';
+import { ListTicketComponent } from './componentes/ticket/list-ticket/list-ticket.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ListarScriptComponent,
     CadastrarScriptComponent,
-    HomeComponent
+    HomeComponent,
+    CadClienteComponent,
+    ListClienteComponent,
+    DetailClienteComponent,
+    CadFuncionarioComponent,
+    ListFuncionarioComponent,
+    DetailFuncionarioComponent,
+    CadTicketComponent,
+    EncerraTicketComponent,
+    ListTicketComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    ClienteService,
+    EmpresaService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

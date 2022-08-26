@@ -14,18 +14,14 @@ thead{
 }
 
 #titulo{
-    width: 15%;
+    width: 40%;
     
 }
 
 #previa{
-    width: 74%;
+    width: 60%;
 }
 
-#action{
-    width: 50px;
-    justify-content: center;
-}
 
 tr{
     border-bottom: solid 1px #dbd8d8;

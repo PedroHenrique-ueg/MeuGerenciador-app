@@ -22,6 +22,11 @@ thead{
     width: 74%;
 }
 
+#action{
+    width: 50px;
+    justify-content: center;
+}
+
 tr{
     border-bottom: solid 1px #dbd8d8;
     height: 60px;
@@ -33,4 +38,22 @@ td{
   text-overflow: ellipsis;
   white-space: nowrap; 
  
+}
+
+
+
+
+
+@media screen and (max-width:425px) {
+    table tr td:nth-child(2) {
+        display: none;
+    }
+
+    #previa{
+        display: none;
+    }
+
+    #titulo{
+        width: 100%;
+    }
 }

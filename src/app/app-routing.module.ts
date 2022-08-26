@@ -9,8 +9,9 @@ import { ListarScriptComponent } from './Script/listar-script/listar-script.comp
 import { ListClienteComponent } from './componentes/clientes/list-cliente/list-cliente.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'scripts', component: ListarScriptComponent },
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path:'novoScript', component: CadastrarScriptComponent },
 
   { path: 'clientes', component: ListClienteComponent },

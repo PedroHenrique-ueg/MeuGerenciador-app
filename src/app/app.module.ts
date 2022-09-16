@@ -19,6 +19,8 @@ import { DetailFuncionarioComponent } from './componentes/funcionario/detail-fun
 import { CadTicketComponent } from './componentes/ticket/cad-ticket/cad-ticket.component';
 import { EncerraTicketComponent } from './componentes/ticket/encerra-ticket/encerra-ticket.component';
 import { ListTicketComponent } from './componentes/ticket/list-ticket/list-ticket.component';
+import { DetalhesScriptComponent } from './Script/detalhes-script/detalhes-script.component';
+import { EditarScriptComponent } from './Script/editar-script/editar-script.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { ListTicketComponent } from './componentes/ticket/list-ticket/list-ticke
     DetailFuncionarioComponent,
     CadTicketComponent,
     EncerraTicketComponent,
-    ListTicketComponent
+    ListTicketComponent,
+    DetalhesScriptComponent,
+    EditarScriptComponent
   ],
   imports: [
     BrowserModule,

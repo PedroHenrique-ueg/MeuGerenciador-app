@@ -9,6 +9,8 @@ import { ListarScriptComponent } from './Script/listar-script/listar-script.comp
 import { ListClienteComponent } from './componentes/clientes/list-cliente/list-cliente.component';
 import { DetalhesScriptComponent } from './Script/detalhes-script/detalhes-script.component';
 import { EditarScriptComponent } from './Script/editar-script/editar-script.component';
+import { ListNadaConstaComponent } from './componentes/nadaConsta/list-nada-consta/list-nada-consta.component';
+import { CadastrarNadaconstaComponent } from './componentes/nadaConsta/cadastrar-nadaconsta/cadastrar-nadaconsta.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,7 +21,10 @@ const routes: Routes = [
   { path: 'editar-script/:id', component:EditarScriptComponent },
 
   { path: 'clientes', component: ListClienteComponent },
-  { path: 'novocliente', component: CadClienteComponent }
+  { path: 'novocliente', component: CadClienteComponent },
+
+  { path: 'nadaconsta', component: ListNadaConstaComponent },
+  { path: 'cadastrarnd', component: CadastrarNadaconstaComponent }
   
 ];
 

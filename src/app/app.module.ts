@@ -21,6 +21,8 @@ import { EncerraTicketComponent } from './componentes/ticket/encerra-ticket/ence
 import { ListTicketComponent } from './componentes/ticket/list-ticket/list-ticket.component';
 import { DetalhesScriptComponent } from './Script/detalhes-script/detalhes-script.component';
 import { EditarScriptComponent } from './Script/editar-script/editar-script.component';
+import { ListNadaConstaComponent } from './componentes/nadaConsta/list-nada-consta/list-nada-consta.component';
+import { CadastrarNadaconstaComponent } from './componentes/nadaConsta/cadastrar-nadaconsta/cadastrar-nadaconsta.component';
 
 
 @NgModule({
@@ -39,7 +41,9 @@ import { EditarScriptComponent } from './Script/editar-script/editar-script.comp
     EncerraTicketComponent,
     ListTicketComponent,
     DetalhesScriptComponent,
-    EditarScriptComponent
+    EditarScriptComponent,
+    ListNadaConstaComponent,
+    CadastrarNadaconstaComponent
   ],
   imports: [
     BrowserModule,

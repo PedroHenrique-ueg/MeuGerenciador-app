@@ -1,0 +1,53 @@
+.label{
+    display: flex;
+    flex-direction:row;
+    padding: 4px;
+ 
+}
+
+.label-data{
+    display: flex;
+    flex-direction:row;
+    padding: 4px; 
+}
+
+.label-data-info{
+    margin-left: 20px;
+}
+
+.data-input{
+    width: 100%;
+}
+
+h6{
+    width: 8%;
+    align-items: center;
+}
+
+input, input[type='text']:focus{
+    margin-left: 8px;
+    width: 55%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    text-transform: uppercase;
+}
+
+select{
+    margin-top: 20px;
+    width: 70%;
+}
+
+.row-buttons{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.row-buttons Button{
+    width: 100px;
+    height: 40px;
+}
+

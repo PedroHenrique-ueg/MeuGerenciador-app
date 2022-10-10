@@ -1,0 +1,58 @@
+.container{
+    height: 100%;
+    padding: 2%
+}
+
+.cabecalho{
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.dados{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.departamento{
+    border: 2px solid;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.informacoes{
+    padding-left: 5px;
+    border-top: 1px solid;
+    height: 150px;
+}
+
+textarea, textarea[type='text']:focus{
+    margin-left: 8px;
+    height: 110px;
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    resize: none;
+}
+
+.assinatura{
+    border-top: 1px solid;
+    padding-left: 5px;
+    align-items: center;
+    
+}
+
+p{
+    font-weight: 600;
+}
+
+.assinatura p{
+    text-align: center;
+}

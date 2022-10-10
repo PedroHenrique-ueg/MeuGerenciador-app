@@ -1,6 +1,7 @@
 <H2>Nada Consta</H2>
 <div class="container-title"> Cadastrar </div>
 
+<br/>
 <div class= "container">
       
     <div >
@@ -11,9 +12,9 @@
         <div class="label">
             <h6>Matricula: </h6>
             <input type="text">
-        </div>
-        
+        </div>     
     </div>
+
     <div class="label">
         <h6>Função: </h6>
         <input type="text">
@@ -23,6 +24,7 @@
         <h6>Local de Trabalho: </h6>
         <input type="text">
     </div>
+
     <div class="label-data">
         <div >
             <h6>Data Admissão: </h6>
@@ -33,18 +35,25 @@
             <input class="data-input" type="date">
         </div>
     </div>
+
     <div class="label">
         <h6>Motivo Demissão</h6>
         <select name="MotivoDem" id="motDem">
-            <option value="Sem Justa Causa"></option>
+            <option value="Sem Justa Causa">Selecione</option>
+            <option value="Sem Justa Causa">Acordo Mutuo</option>
+            <option value="Sem Justa Causa">Demissão sem Justa Causa</option>
+            <option value="Sem Justa Causa">Demissão por Justa Causa</option>
+            <option value="Sem Justa Causa">Pedido de Demissão</option>
+            <option value="Sem Justa Causa">Termino de Contrato</option>   
         </select>
     </div>
+
     <tr></tr>
 
 
     <div class="row-buttons">
         <Button type="button" class="btn btn-success"><i class="small material-icons">save</i></Button>
         <Button routerLink="/nadaconsta" style="margin-left: 5px;" type="button" class="btn btn-danger"><i class="small material-icons">arrow_back</i></Button>
-     </div>
+    </div>
 
 </div>

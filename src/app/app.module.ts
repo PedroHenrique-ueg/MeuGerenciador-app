@@ -23,6 +23,7 @@ import { DetalhesScriptComponent } from './Script/detalhes-script/detalhes-scrip
 import { EditarScriptComponent } from './Script/editar-script/editar-script.component';
 import { ListNadaConstaComponent } from './componentes/nadaConsta/list-nada-consta/list-nada-consta.component';
 import { CadastrarNadaconstaComponent } from './componentes/nadaConsta/cadastrar-nadaconsta/cadastrar-nadaconsta.component';
+import { DetalhesNadaconstaComponent } from './componentes/nadaConsta/detalhes-nadaconsta/detalhes-nadaconsta.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { CadastrarNadaconstaComponent } from './componentes/nadaConsta/cadastrar
     DetalhesScriptComponent,
     EditarScriptComponent,
     ListNadaConstaComponent,
-    CadastrarNadaconstaComponent
+    CadastrarNadaconstaComponent,
+    DetalhesNadaconstaComponent
   ],
   imports: [
     BrowserModule,

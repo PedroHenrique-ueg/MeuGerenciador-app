@@ -21,7 +21,7 @@
 
 h6{
     width: 8%;
-    align-items: center;
+   
 }
 
 input, input[type='text']:focus{
@@ -38,7 +38,7 @@ input, input[type='text']:focus{
 
 select{
     margin-top: 20px;
-    width: 70%;
+    width: 40%;
 }
 
 .row-buttons{

@@ -1,3 +1,8 @@
+body{
+    height: 100%;
+    padding: 0; 
+}
+
 .navbar{
     background-color: #363636 ;
     color: white;
@@ -11,7 +16,7 @@
     width: 15%;
     position: absolute;
     padding: 1%;
-    overflow: auto;
+    overflow-y: auto;
     
 }
 
@@ -49,11 +54,13 @@
 
 main{
     margin-left: 15.2%;
-    width: auto;
-    height: 85%;
-    position: relative;
-    padding: 10px;
+    width: 80%;
+    height: 100%;
+    padding: 5px;
+    overflow-y: scroll;
+    margin: 2px solid;
 }
+
 
 .container-title{
     background-color: #a2a2a2;

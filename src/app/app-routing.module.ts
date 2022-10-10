@@ -1,3 +1,4 @@
+import { DetalhesNadaconstaComponent } from './componentes/nadaConsta/detalhes-nadaconsta/detalhes-nadaconsta.component';
 import { CadClienteComponent } from './componentes/clientes/cad-cliente/cad-cliente.component';
 
 import { CadastrarScriptComponent } from './Script/cadastrar-script/cadastrar-script.component';
@@ -24,7 +25,8 @@ const routes: Routes = [
   { path: 'novocliente', component: CadClienteComponent },
 
   { path: 'nadaconsta', component: ListNadaConstaComponent },
-  { path: 'cadastrarnd', component: CadastrarNadaconstaComponent }
+  { path: 'cadastrarnd', component: CadastrarNadaconstaComponent },
+  { path: 'detalhesnadaconsta', component: DetalhesNadaconstaComponent }
   
 ];
 
